@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Timer.Task1.Library")]
+[assembly: AssemblyTitle("CountdownBroadcast")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Timer.Task1.Library")]
+[assembly: AssemblyProduct("CountdownBroadcast")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("328abc43-7698-49f5-abc8-a1def9731277")]
+[assembly: Guid("5d263396-c4fe-4422-bb64-5866b1a9e312")]
 
 // Version information for an assembly consists of the following four values:
 //
