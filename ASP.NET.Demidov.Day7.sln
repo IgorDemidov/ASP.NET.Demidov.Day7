@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fibonacci.Task2", "Fibonacci.Task2", "{593F5C12-F247-4EBD-AEAA-7E2BFC8EACFE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2.Fibonacci", "Task2.Fibonacci", "{593F5C12-F247-4EBD-AEAA-7E2BFC8EACFE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci.Task2.ConsoleApp", "Fibonacci.Task2.ConsoleApp\Fibonacci.Task2.ConsoleApp.csproj", "{E712D5FD-8037-485D-B9BD-1574651565B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci.Task2.Library", "Fibonacci.Task2.Library\Fibonacci.Task2.Library.csproj", "{9FA9C572-55B7-473F-9D7A-F4707733E55C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CountdownBroadcast.Task2", "CountdownBroadcast.Task2", "{40358816-0001-49FC-A456-F8EBFF497075}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1.CountdownBroadcast", "Task1.CountdownBroadcast", "{40358816-0001-49FC-A456-F8EBFF497075}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountdownBroadcast", "CountdownBroadcast\CountdownBroadcast.csproj", "{AF48FD47-48A8-4B1E-B083-CFECD6ED79DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountdownBroadcast.Test", "CountdownBroadcast.Test\CountdownBroadcast.Test.csproj", "{6B31A674-BB93-46E5-AA1C-8F565721F4EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task3.CustomQueue", "Task3.CustomQueue", "{F5B6657C-8F19-4AA0-A166-1A331F38F471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomQueue.Task3.Library", "CustomQueue.Task3.Library\CustomQueue.Task3.Library.csproj", "{A2A4122C-7E17-4E73-9637-F29BB8324EDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,10 @@ Global
 		{6B31A674-BB93-46E5-AA1C-8F565721F4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B31A674-BB93-46E5-AA1C-8F565721F4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B31A674-BB93-46E5-AA1C-8F565721F4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A4122C-7E17-4E73-9637-F29BB8324EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A4122C-7E17-4E73-9637-F29BB8324EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A4122C-7E17-4E73-9637-F29BB8324EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A4122C-7E17-4E73-9637-F29BB8324EDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +54,6 @@ Global
 		{9FA9C572-55B7-473F-9D7A-F4707733E55C} = {593F5C12-F247-4EBD-AEAA-7E2BFC8EACFE}
 		{AF48FD47-48A8-4B1E-B083-CFECD6ED79DA} = {40358816-0001-49FC-A456-F8EBFF497075}
 		{6B31A674-BB93-46E5-AA1C-8F565721F4EA} = {40358816-0001-49FC-A456-F8EBFF497075}
+		{A2A4122C-7E17-4E73-9637-F29BB8324EDA} = {F5B6657C-8F19-4AA0-A166-1A331F38F471}
 	EndGlobalSection
 EndGlobal
