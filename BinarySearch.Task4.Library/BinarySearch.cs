@@ -16,19 +16,30 @@ namespace BinarySearch.Task4.Library
             if (lastIndex == firstIndex)
                 return false;
 
-            int cursor = (int)(firstIndex + ((lastIndex - firstIndex) / 2));
-
-            if (sortedSet[cursor].CompareTo((T)wanted)==1)
+            while (true)
             {
+                int cursor = (int)(firstIndex + ((lastIndex - firstIndex) / 2));
 
+                if (firstIndex == lastIndex)
+                    if (firstIndex == cursor)
+                        return true;
+                    else
+                        return false;
+
+                switch (sortedSet[cursor].CompareTo((T)wanted))
+                {
+                    case 1:
+                        lastIndex = cursor;
+                        break;
+                    case -1:
+                        firstIndex = cursor;
+                        break;
+                    case 0:
+                        firstIndex = cursor;
+                        lastIndex = cursor;
+                        break;
+                }
             }
-
-
-
-
-
-
-            return true;
         }
     }
 }
