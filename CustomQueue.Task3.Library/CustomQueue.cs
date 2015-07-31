@@ -22,12 +22,17 @@ namespace CustomQueue.Task3.Library
                 throw new ArgumentOutOfRangeException("capacity");
             items = new T[capacity];
         }
+        public CustomQueue(IEnumerable<T> collection)
+            : this(defaultSize)
+        {
+            foreach (var item in collection)
+            {
+                this.Enqueue(item);
+            }
+        }
 
         public void Enqueue(T item)
-        {
-            if (items == null)
-                throw new ArgumentNullException("item");
-            
+        {            
             if (count == items.Length)
             {
                 int capacity = items.Length + defaultSize;

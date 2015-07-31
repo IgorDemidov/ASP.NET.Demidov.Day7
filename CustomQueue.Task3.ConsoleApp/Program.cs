@@ -38,9 +38,14 @@ namespace CustomQueue.Task3.ConsoleApp
             Console.WriteLine(userQueue.Peek());
             Console.WriteLine("Was peeked. Count = " + userQueue.Count);
 
+            Console.WriteLine("\nCtor with IEnumerable:");
+            int[] array = new int[] { 5, 6, 7, 8, 9 };
+            CustomQueue<int> userQueue2 = new CustomQueue<int>(array);
+            foreach (var item in userQueue2)
+            {
+                Console.WriteLine(item);
+            }
             Console.ReadLine();
-
-            
         }
     }
 }
